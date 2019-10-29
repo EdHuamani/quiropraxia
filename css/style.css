@@ -1,0 +1,16 @@
+/* page */
+
+.bg_screen {
+    /* background-image: url("../images/banner.jpg"); */
+    background-image: url("http://aosteopatia.com.br/wp-content/uploads/2019/02/aosteopatia_osteopatiavisceral.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: color-dodge;
+    background-color: #4a231917;
+}
+
+@media screen and (max-width: 768px) {
+    .image_fond {
+        margin-top: -65rem;
+    }
+}
