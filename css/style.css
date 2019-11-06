@@ -8,9 +8,16 @@
     background-blend-mode: color-dodge;
     background-color: #4a231917;
 }
-
+.bg-image-service{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:  center center;
+}
 @media screen and (max-width: 768px) {
     .image_fond {
         margin-top: -65rem;
+    }
+    .bar_lateral{
+        display: none;
     }
 }
