@@ -7,17 +7,56 @@
     background-size: cover;
     background-blend-mode: color-dodge;
     background-color: #4a231917;
-}
-.bg-image-service{
+  }
+  .bg-image-service {
     background-size: cover;
     background-repeat: no-repeat;
-    background-position:  center center;
-}
-@media screen and (max-width: 768px) {
+    background-position: center center;
+  }
+  @media screen and (max-width: 768px) {
     .image_fond {
-        margin-top: -65rem;
+      margin-top: -65rem;
     }
-    .bar_lateral{
-        display: none;
+    .bar_lateral {
+      display: none;
     }
-}
+  }
+  .text-center {
+    text-align: center;
+  }
+  .bg-gradient {
+    background: rgb(236, 244, 237);
+    background: -moz-radial-gradient(
+      circle,
+      rgba(236, 244, 237, 0) -5%,
+      rgba(71, 151, 79, 0.554) 44%,
+      rgba(7, 115, 18, 0.999) 89%
+    );
+    background: -webkit-radial-gradient(
+      circle,
+      rgba(236, 244, 237, 0) -5%,
+      rgba(71, 151, 79, 0.554) 44%,
+      rgba(7, 115, 18, 0.999) 89%
+    );
+    background: radial-gradient(
+      circle,
+      rgba(236, 244, 237, 0) -5%,
+      rgba(71, 151, 79, 0.554) 44%,
+      rgba(7, 115, 18, 0.999) 89%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ecf4ed",endColorstr="#077311",GradientType=1);
+  }
+  
+  .bg-image {
+    background-image: url("https://www.aviancaenrevista.com/wp-content/uploads/2018/10/arboles-3.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position-y: 18%;
+  }
+  .text-border {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.85);
+  }
+  
